@@ -2,13 +2,15 @@
 Proyecto parcial 3 en android studio
 ## Getting Started
 
-Para empezar se debe descargar el proyecto del github y android studio.
+Para empezar se debe descargar el proyecto del Github y Android Studio.
 
 ### Prerequisites
 
 Android Studio, con un AVD de un celular pixel 2 cargado con android 9.0(Google Play) de preferencia.
 
 ### Installing
+
+Por si desea usar el server directo
 
 ```
 git init
@@ -19,15 +21,15 @@ git pull
 
 ## Running the tests
 
-Para correr la aplicacion de abriri android studio y abrir el proyecto donde lo haya descargado.
+Para correr la aplicacion debe abrir android studio y abrir el proyecto donde lo haya descargado.
 
 Configura el AVM para el proyecto y oprime el buton de "Run 'app'".
 
-Se abrirar un VM del celular seleccionado y correra la aplicacion.
+Se abrira un VM del celular seleccionado y correra la aplicacion.
 
 Para ver los CVs debe oprimir uno de los obtones en pantalla.
 
-Para regresar al menu pricipal se oprime la flecha de regresor del celular.
+Para regresar al menu pricipal se oprime la flecha de regresor en el celular.
 
 
 ## Built With
