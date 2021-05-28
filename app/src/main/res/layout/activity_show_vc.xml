@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ShowVC">
+
+    <ImageView
+        android:id="@+id/imgpersona"
+        android:layout_width="177dp"
+        android:layout_height="161dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/uach" />
+
+    <TextView
+        android:id="@+id/txtbio"
+        android:layout_width="366dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:text="TextView"
+        app:layout_constraintStart_toStartOf="@+id/txtnombre"
+        app:layout_constraintTop_toBottomOf="@+id/txtnombre" />
+
+    <TextView
+        android:id="@+id/txtnombre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="8dp"
+        android:text="TextView"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imgpersona" />
+
+    <TextView
+        android:id="@+id/txteducacion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Educacion"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/txtbio"
+        app:layout_constraintTop_toBottomOf="@+id/txtbio" />
+
+    <TextView
+        android:id="@+id/txtuni"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:text="TextView"
+        app:layout_constraintStart_toStartOf="@+id/txtprepa"
+        app:layout_constraintTop_toBottomOf="@+id/txtprepa" />
+
+    <TextView
+        android:id="@+id/txtsecu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:text="TextView"
+        app:layout_constraintStart_toStartOf="@+id/txteducacion"
+        app:layout_constraintTop_toBottomOf="@+id/txteducacion" />
+
+    <TextView
+        android:id="@+id/txtprepa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:text="TextView"
+        app:layout_constraintStart_toStartOf="@+id/txtsecu"
+        app:layout_constraintTop_toBottomOf="@+id/txtsecu" />
+
+    <TextView
+        android:id="@+id/txthabi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Habilidades"
+        android:textAllCaps="false"
+        android:textIsSelectable="false"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/txteducacion"
+        app:layout_constraintTop_toBottomOf="@+id/txtuni" />
+
+    <TextView
+        android:id="@+id/txthabi1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="12dp"
+        android:text="TextView"
+        app:layout_constraintStart_toStartOf="@+id/txthabi"
+        app:layout_constraintTop_toBottomOf="@+id/txthabi" />
+
+    <TextView
+        android:id="@+id/txthabi2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        app:layout_constraintStart_toStartOf="@+id/txthabi1"
+        app:layout_constraintTop_toBottomOf="@+id/txthabi1" />
+
+    <TextView
+        android:id="@+id/txthabi3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        app:layout_constraintStart_toStartOf="@+id/txthabi2"
+        app:layout_constraintTop_toBottomOf="@+id/txthabi2" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
